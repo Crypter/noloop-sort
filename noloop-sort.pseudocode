@@ -1,0 +1,9 @@
+// Published by Crypter, 2022
+
+noloop-sort(array, order) {
+  if ((order == undef) && (array.length >= 2)) {
+    return array.item_range(0,1);
+  } else {
+    return array.item_range(0,0);
+  }
+}
